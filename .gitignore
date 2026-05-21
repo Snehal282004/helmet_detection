@@ -1,0 +1,8 @@
+venv/
+runs/
+__pycache__/
+*.avif
+*.jpg
+*.png
+number_detector.py
+2.py
