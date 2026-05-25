@@ -1,0 +1,26 @@
+# Virtual Environment
+
+anpr_env/
+venv/
+.env
+
+__pycache__/
+*.pyc
+*.mp4
+*.avi
+output/
+
+
+# Database
+*.db
+results/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Models
+models/
+*.pt
