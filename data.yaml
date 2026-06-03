@@ -1,13 +1,8 @@
-train: /home/prince/Desktop/SkyLark/Helmet/train/images
-val: /home/prince/Desktop/SkyLark/Helmet/valid/images
-test: /home/prince/Desktop/SkyLark/Helmet/test/images
+path: C:/Users/Shree/Desktop/Helmet-Detection-project/Datasets
 
-nc: 2
-names: ['With Helmet', 'Without Helmet']
+train: train/images
+val: valid/images
 
-roboflow:
-  workspace: bike-helmets
-  project: bike-helmet-detection-2vdjo
-  version: 1
-  license: Public Domain
-  url: https://universe.roboflow.com/bike-helmets/bike-helmet-detection-2vdjo/dataset/1
+names:
+  0: With Helmet
+  1: Without Helmet
